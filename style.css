@@ -10,10 +10,10 @@
     /* color: #f17e03; */
     padding: 5px;
     margin: 5px;
-    text-shadow: 2px 2px 8px #FF0000;
+    text-shadow: 1px 1px 3px #08d63b;
 }
 section{
-    width: 100%;
+    width: 100%; 
     height: 100vh;
 }
 
@@ -26,6 +26,7 @@ section nav{
     left: 0;
     background: white;
     box-shadow: 0 0 10px rgba(74, 222, 5, 0.5);
+    z-index: 1000;
  
 }
 
@@ -33,6 +34,7 @@ section nav .logo img{
     width: 100px;
     cursor: pointer;
     margin: 7px 0;
+    z-index: 20;
 }
 
 section nav ul{
@@ -56,7 +58,8 @@ section nav ul li a::after{
     content: '';
     width: 0;
     height: 2px;
-    background: #fac031;
+    /* background: #fac031; */
+    background: #1fe737;
     display: block;
     transition: 0.2s linear;
 }
@@ -66,7 +69,8 @@ section nav ul li a:hover::after{
 }
 
 section nav ul li a:hover{
-    color: #fac031;
+    /* color: #fac031; */
+    color: #1fe737;
 }
 
 section nav .icon i{
@@ -78,7 +82,8 @@ section nav .icon i{
 }
 
 section nav .icon i:hover{
-    color: #fac031;
+    /* color: #fac031; */
+    color: #1fe737;
 }
 
 section .main{
@@ -98,7 +103,8 @@ section .main .men_text h1{
 
 section .main .men_text h1 span{
     margin-left: 15px;
-    color: #fac031;
+    /* color: #fac031; */
+    color: #1fe737;
     font-family: mv boli;
     line-height: 22px;
     font-size: 70px;
@@ -120,7 +126,8 @@ section p{
 }
 
 section .main_btn{
-    background: #fac031;
+    /* background: #fac031; */
+    background: #1fe737;
     position: relative;
     left: 123px;
     bottom: 30px;
@@ -146,7 +153,6 @@ section .main_btn:hover i{
 
 
 
-
 /*Menu*/
 
 .menu{
@@ -163,7 +169,8 @@ section .main_btn:hover i{
 }
 
 .menu h1 span{
-    color: #fac031;
+    /* color: #fac031; */
+    color: #1fe737;
     margin-left: 15px;
     font-family: mv boli;
 }
@@ -172,7 +179,8 @@ section .main_btn:hover i{
     content: '';
     width: 100%;
     height: 2px;
-    background: #fac031;
+    /* background: #fac031; */
+    background: #1fe737;
     display: block;
     position: relative;
     bottom: 15px;
@@ -221,7 +229,8 @@ section .main_btn:hover i{
     text-align: center;
     margin: 10px auto 10px auto;
     font-size: 25px;
-    color: #fac031;
+    /* color: #fac031; */
+    color: #1fe737;
 }
 
 .menu .menu_box .menu_card .menu_info p{
@@ -237,6 +246,8 @@ section .main_btn:hover i{
 
 .menu .menu_box .menu_card .menu_info .menu_icon{
     color: #fac031;
+    /* color: #1fe737; */
+
     text-align: center;
     margin: 10px 0 10px 0;
 }
@@ -271,7 +282,8 @@ section .main_btn:hover i{
 
 .gallary h1 span{
     margin-left: 15px;
-    color: #fac031;
+    /* color: #fac031; */
+    color: #1fe737;
     font-family: mv boli;
 }
 
@@ -279,7 +291,8 @@ section .main_btn:hover i{
     content: '';
     width: 100%;
     height: 2px;
-    background: #fac031;
+    /* background: #fac031; */
+    background: #1fe737;
     display: block;
     position: relative;
     bottom: 15px;
@@ -313,7 +326,8 @@ section .main_btn:hover i{
     position: absolute;
     font-size: 35px;
     margin-bottom: 130px;
-    color: #fac031;
+    /* color: #fac031; */
+    color: #1fe737;
     font-family: polo;
     z-index: 5;
     opacity: 0;
@@ -344,7 +358,8 @@ section .main_btn:hover i{
     position: absolute;
     margin-top: 180px;
     color: #000;
-    background: #fac031;
+    /* background: #fac031; */
+    background: #1fe737;
     padding: 7px 25px;
     text-decoration: none;
     opacity: 0;
@@ -377,7 +392,8 @@ section .main_btn:hover i{
 
 .review h1 span{
     margin-left: 15px;
-    color: #fac031;
+    /* color: #fac031; */
+    color: #1fe737;
     font-family: mv boli;
 }
 
@@ -385,7 +401,8 @@ section .main_btn:hover i{
     content: '';
     width: 100%;
     height: 2px;
-    background: #fac031;
+    /* background: #fac031; */
+    background: #1fe737;
     position: relative;
     bottom: 15px;
     display: block;
@@ -441,7 +458,8 @@ section .main_btn:hover i{
 }
 
 .review .review_box .review_card .review_text .review_icon{
-    color: #fac031;
+    /* color: #fac031; */
+    color: #1fe737;
     transition: 0.3s;
 }
 
